@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(253, 243, 226);
+}
+
+.App-logo {
+  margin-top: 30px;
+} 
+
+.App-header {
+  margin: 30px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+
