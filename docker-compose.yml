@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+ web:
+    working_dir: /opt/web/api/
+#    command: node server.js
+    volumes:
+      - "./frontend:/opt/web/"
+    ports:
+      - "3000:8080"
+      - "35729:35729"
+    restart: always
+    build: ./frontend
+    #command: bash -c "npm install -g create-react-app && create-react-app redux && cd redux && npm start"
+    command: bash -c "npm start"
+    #command: bash -c "node server.js"
