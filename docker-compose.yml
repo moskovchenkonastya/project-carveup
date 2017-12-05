@@ -1,16 +1,27 @@
 version: "2"
 
 services:
- web:
-    working_dir: /opt/web/api/
+  backend:
+    working_dir: /go/src/app
+    volumes:
+      - "./backend:/go/src/app"
+    build: ./backend
+    ports:
+      - "5050:5050"
+    restart: always
+    build: ./backend
+    command: go run main.go
+  web:
+    working_dir: /opt/web/api
 #    command: node server.js
     volumes:
-      - "./frontend:/opt/web/"
+      - "./frontend/api:/opt/web/api"
     ports:
       - "3000:8080"
       - "35729:35729"
     restart: always
     build: ./frontend
     #command: bash -c "npm install -g create-react-app && create-react-app redux && cd redux && npm start"
-    command: bash -c "npm start"
+    #command: bash -c "npm install --save babel-preset-react"
     #command: bash -c "node server.js"
+    command: bash -c "npm start"

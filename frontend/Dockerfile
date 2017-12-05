@@ -1,13 +1,14 @@
 FROM node:boron
 
-RUN mkdir /opt/web/
-WORKDIR /opt/web/
+RUN mkdir -p /opt/web/api
+WORKDIR /opt/web/api
 
-COPY . .
+COPY ./api .
 RUN npm install
-RUN npm install --save react react-dom
-RUN npm install --save react-bootstrap
+# RUN npm install --save react react-dom
+# RUN npm install --save react-bootstrap
+# RUN npm install --save babel-preset-react
 
-#VOLUME /opt/web/api
+VOLUME /opt/web/api/node_modules/
 
 EXPOSE 3000
