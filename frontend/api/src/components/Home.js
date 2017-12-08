@@ -5,14 +5,14 @@ import { Redirect } from 'react-router-dom'
 
 import { Message, Blue } from './Styled'
 
-const Home = ({ user , email}) =>
+const Home = ({ user , email }) =>
   user.token ? (
     <Message>
       {"You're logged in as "}
-      <Blue>{user.username}</Blue>
+      <Blue>{ user.username }</Blue>
     </Message>
   ) : (
-    <Redirect to="/login" />
+    <Redirect to="/map" />
   )
 
 Home.propTypes = {

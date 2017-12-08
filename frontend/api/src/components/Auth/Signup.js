@@ -7,6 +7,7 @@ import { signup } from '../../actions'
 
 import { FormTitle, FooterLink } from '../Styled'
 import FormSingup from './FormSingup'
+import Header from '../Header'
 
 const Signup = ({ user, signup }) => {
   const handleSubmit = e => {
@@ -22,10 +23,11 @@ const Signup = ({ user, signup }) => {
 
   return (
     <div>
+      <Header />
       <FormTitle>Sign up</FormTitle>
-      <FormSingup onSubmit={handleSubmit} />
+      <FormSingup onSubmit={ handleSubmit } />
       <FooterLink to="/login">Already have an account ?</FooterLink>
-      {user.username && <Redirect to="/login" />}
+      { user.username && <Redirect to="/login" />}
     </div>
   )
 }

@@ -35,6 +35,7 @@ const FormSingup = ({ onSubmit }) => (
       required
     />
     <Submit type="submit" value="Continue" />
+    
   </form>
 )
 

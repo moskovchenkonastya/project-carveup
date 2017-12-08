@@ -2,19 +2,55 @@ import styled from 'emotion/react'
 import { Link } from 'react-router-dom'
 
 export const Body = styled.div`
-  text-align: center;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+text-align: center;
+`
+export const Mappadding = styled.div`
+text-align: center;
+margin: 0px 100px 0px 100px;
 `
 
+export const Wrap = styled.div`
+margin-top: 40vh;
+margin:15px auto 25px;
+padding: 22px 70px 0 22px;
+-webkit-tap-highlight-color: rgba(0, 255, 0, 0);
+`
+export const MapBody = styled.body`
+margin-left: 50%;
+`
+
+
 export const Title = styled.h1`
-margin: 90px 30px 20px 30px;
+text-align: center;
+margin: 60px 30px 20px 30px;
 `
 export const Background = styled.form`
-background-color: blue;
+background: blue;
 width: 100%;
 height: 100%;
 `
+const  Form = styled.form`
+text-align: center;
+widht: 30px;
+height:50px;
+`
 
+export const MapBasics = styled.div`
+text-align: center;
+background: white;
+width: 1200px;
+height: 50px;
+margin: 0px 100px 0px 100px;
+`
+export const Footer = styled.div`
+text-align: center;
+background: #FFBA12;
+width: 1200px;
+height: 20px;
+letter-spacing:1px;
+margin: 0px 100px 0px 100px;
+padding: 0.5em 0;
+`
 
 const Style = styled.span`
   vertical-align: middle;
@@ -27,6 +63,7 @@ const Style = styled.span`
 `
 
 export const Button = styled(Style)`
+  text-align: center;
   border-radius: 3px 0 0 3px;
   background: rgb(248, 248, 248);
   &:hover {
@@ -55,6 +92,7 @@ export const Message = styled.h2`
 export const Blue = styled.span`color: rgb(0, 128, 255);`
 
 export const FormTitle = styled.h1`
+  text-align: center;
   font-family: sans-serif;
   font-weight: 100;
   margin-top: 5vh;
@@ -82,8 +120,9 @@ export const TextField = styled.input`
 `
 
 export const Submit = styled.input`
+  text-align: center;
   border: none;
-  color: rgb(0, 128, 255);
+  color: #FF8811;
   font-size: 24px;
   background: none;
   outline: none;
@@ -92,6 +131,7 @@ export const Submit = styled.input`
 `
 
 export const FooterLink = styled(Link)`
+  text-align: center;
   position: fixed;
   left: 0;
   bottom: 15px;

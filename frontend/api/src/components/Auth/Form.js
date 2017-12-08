@@ -16,8 +16,8 @@ const Form = ({ onSubmit }) => (
       type="password"
       name="password"
       placeholder="Password"
-      title="Type a strong password: aBC_123^"
-      pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$"
+      //title="Type a strong password: aBC_123^"
+      //pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,}$"
       required
     />
     <Submit type="submit" value="Continue" />

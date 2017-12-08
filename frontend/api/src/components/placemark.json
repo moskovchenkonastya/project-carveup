@@ -1,0 +1,90 @@
+[{
+  "geometry": {
+    "coordinates": [59.896023, 30.329599]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км."
+  },
+  "options": {
+    "preset": "islands#icon",
+    "iconColor": "#0095b6"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.926739, 30.317753]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км."
+                      
+  },
+  "options": {
+    "preset": "islands#dotIcon",
+    "iconColor": "#735184"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.887086, 30.529789]
+  },
+  "properties": {
+    "balloonContent":"Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км."
+  },
+  "options": {
+    "preset": "islands#circleIcon",
+    "iconColor": "#3caa3c"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.882392, 30.114924]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км."
+  },
+  "options": {
+    "preset": "islands#circleDotIcon",
+    "iconColor": "yellow"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.922063, 30.206123]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км."
+  },
+  "options": {
+    "preset": "islands#redSportIcon"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.826479, 30.487208]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км."
+                       },
+  "options": {
+    "preset": "islands#governmentCircleIcon",
+    "iconColor": "#3b5998"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.894843, 30.435023]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км.",
+    "iconCaption": "Datsun Mi-Do"
+  },
+  "options": {
+    "preset": "islands#greenDotIconWithCaption"
+  }
+}, {
+  "geometry": {
+    "coordinates": [59.890139, 30.414052]
+  },
+  "properties": {
+    "balloonContent": "Datsun Mi-Do: Топливо: 6 л. | 15% Пробег: 195км.Топливо:6л. | 15% Пробег: 195км.",
+    "iconCaption": "Datsun Mi-Do"
+  },
+  "options": {
+    "preset": "islands#blueCircleDotIconWithCaption",
+    "iconCaptionMaxWidth": "50"
+  }
+}]

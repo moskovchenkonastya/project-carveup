@@ -6,6 +6,8 @@ import Async from 'react-code-splitting'
 
 import Login from './Auth/Login'
 import Signup from './Auth/Signup'
+import SelectCity from './Map/SelectCity'
+import ListCars  from './Car/ListCars'
 import Header from './Header'
 import { Body } from './Styled'
 
@@ -13,11 +15,13 @@ const Home = () => <Async load={import('./Home')} />
 
 const App = ({ user }) => (
   <Body>
-    <Header />
+    
     <Switch>
       {user.token && <Route path="/" component={ Home } />}
       <Route path="/signup" component={ Signup } />
       <Route path="/login" component={ Login } />
+      <Route path="/map" component={ SelectCity } />
+      <Route path="/car" component={ ListCars } />
     </Switch>
   </Body>
 )

@@ -7,6 +7,7 @@ import { login } from '../../actions'
 
 import { FormTitle, FooterLink } from '../Styled'
 import Form from './Form'
+import Header from '../Header'
 
 
 
@@ -19,6 +20,7 @@ const Login = ({ user, login }) => {
 
   return (
     <div>
+      <Header />
       <FormTitle>Login</FormTitle>
       <Form onSubmit={ handleSubmit } />
 
