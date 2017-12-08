@@ -1,4 +1,4 @@
 # project-carveup
 Сarsharing
 
-carveup.ru/login
+http://carveup.ru/login
