@@ -21,7 +21,6 @@ const App = ({ user }) => (
       <Route path="/signup" component={ Signup } />
       <Route path="/login" component={ Login } />
       <Route path="/map" component={ SelectCity } />
-      <Route path="/car" component={ ListCars } />
     </Switch>
   </Body>
 )
