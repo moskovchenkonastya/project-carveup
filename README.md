@@ -4,7 +4,7 @@
  
 Стек технологий:
 1) Backend: Golang
-2) Frontend: React, 
+2) Frontend: React, JSX
 3) Docker
 
 На сервере приложение работает на соответствующих портах 5050 и 8080.
